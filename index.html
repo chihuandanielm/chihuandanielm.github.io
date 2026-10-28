@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; frame-src https://open.spotify.com; connect-src 'none'; manifest-src 'self'; media-src 'none'; worker-src 'none'; form-action https://formspree.io; base-uri 'none'; object-src 'none'; upgrade-insecure-requests">
+<script src="intro.js?v=2"></script>
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Daniel Chihuan Meza: Neuroscience &amp; Psychology at Rutgers. Interested in business operations, procurement, rotational programs, and research.">
+<title>Daniel Chihuan Meza</title>
+<link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#e8e3d7">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chihuandanielm.github.io/">
+<meta property="og:title" content="Daniel Chihuan Meza">
+<meta property="og:description" content="Neuroscience &amp; Psychology at Rutgers. Operations, research, and art.">
+<meta property="og:image" content="https://chihuandanielm.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="fonts/quantico-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css?v=61">
+</head>
+<body>
+<svg class="defs" aria-hidden="true">
+  <defs>
+    <radialGradient id="pb"><stop offset="0" stop-color="#484a78"/><stop offset=".45" stop-color="#5d5f8f" stop-opacity=".85"/><stop offset="1" stop-color="#a9a6c4" stop-opacity="0"/></radialGradient>
+    <radialGradient id="po"><stop offset="0" stop-color="#9c6f6c"/><stop offset=".45" stop-color="#b48d86" stop-opacity=".8"/><stop offset="1" stop-color="#d8c3b8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="halo"><stop offset="0" stop-color="#b1a9c2" stop-opacity=".55"/><stop offset="1" stop-color="#b1a9c2" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.08" numOctaves="2" seed="3"/>
+      <feDisplacementMap in="SourceGraphic" scale="6"/>
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+  <symbol id="flower-blue" viewBox="0 0 120 220">
+    <circle cx="60" cy="42" r="40" fill="url(#halo)"/>
+    <g filter="url(#soft)"><ellipse cx="44" cy="40" rx="24" ry="14" transform="rotate(-24 44 40)" fill="url(#pb)"/>
+    <ellipse cx="74" cy="36" rx="21" ry="12" transform="rotate(28 74 36)" fill="url(#pb)"/>
+    <ellipse cx="60" cy="24" rx="12" ry="8" fill="url(#pb)" opacity=".7"/></g>
+  </symbol>
+  <symbol id="flower-orange" viewBox="0 0 120 220">
+    <g filter="url(#soft)"><ellipse cx="44" cy="40" rx="24" ry="14" transform="rotate(-24 44 40)" fill="url(#po)"/>
+    <ellipse cx="74" cy="36" rx="21" ry="12" transform="rotate(28 74 36)" fill="url(#po)"/>
+    <ellipse cx="60" cy="24" rx="12" ry="8" fill="url(#po)" opacity=".7"/></g>
+  </symbol>
+  <symbol id="meander" viewBox="0 0 160 270"><path d="M20 260 V110 A60 60 0 0 1 140 110 V260"/><path d="M29 260 V110 A51 51 0 0 1 131 110 V260"/><path d="M38 260 V110 A42 42 0 0 1 122 110 V260"/><path d="M47 260 V110 A33 33 0 0 1 113 110 V260"/><path d="M56 260 V110 A24 24 0 0 1 104 110 V260"/><path d="M65 260 V110 A15 15 0 0 1 95 110 V260"/></symbol>
+  <symbol id="loop1" viewBox="0 0 400 40"><line x1="0" y1="20" x2="300" y2="20" stroke="#34302c" stroke-width="1.5"/><circle cx="300" cy="20" r="14" fill="#545684"/><circle cx="338" cy="20" r="9" fill="none" stroke="#34302c" stroke-width="1.5"/><circle cx="366" cy="20" r="5" fill="#96773d"/></symbol>
+  <symbol id="loop2" viewBox="0 0 400 40"><circle cx="14" cy="20" r="6" fill="#34302c"/><line x1="14" y1="16" x2="260" y2="16" stroke="#34302c" stroke-width="1.2"/><line x1="14" y1="24" x2="220" y2="24" stroke="#34302c" stroke-width="1.2"/><circle cx="282" cy="20" r="18" fill="none" stroke="#545684" stroke-width="3"/><circle cx="282" cy="20" r="7" fill="#545684"/></symbol>
+  <symbol id="loop3" viewBox="0 0 400 40"><circle cx="20" cy="20" r="16" fill="#4e716d" opacity=".75"/><circle cx="56" cy="20" r="10" fill="#545684"/><circle cx="82" cy="20" r="5" fill="#34302c"/><line x1="96" y1="20" x2="400" y2="20" stroke="#34302c" stroke-width="1.5" stroke-dasharray="2 6"/></symbol>
+  <symbol id="rose" viewBox="0 0 40 40">
+    <defs><radialGradient id="brz" cx=".35" cy=".3"><stop offset="0" stop-color="#d9c79a"/><stop offset=".5" stop-color="#8a7a55"/><stop offset="1" stop-color="#3a3326"/></radialGradient></defs>
+    <path d="M6 24 C 2 16, 8 8, 16 10 C 12 14, 10 18, 6 24 Z M34 16 C 38 24, 32 32, 24 30 C 28 26, 30 22, 34 16 Z" fill="#5d5340"/>
+    <circle cx="20" cy="20" r="11" fill="url(#brz)" stroke="#2a251c" stroke-width="1"/>
+    <path d="M20 12 C 26 12, 28 18, 24 21 C 21 23, 17 21, 18 18 C 19 16, 22 16, 22 19" fill="none" stroke="#2a251c" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M12 21 C 12 27, 18 30, 24 28" fill="none" stroke="#2a251c" stroke-width="1"/>
+    <circle cx="20" cy="20" r="1.8" fill="#efe6cf"/>
+  </symbol>
+  <symbol id="sigil" viewBox="0 0 240 120">
+    <path d="M120 4 C 124 30, 116 50, 120 60 C 124 72, 116 92, 120 116"/>
+    <path d="M120 60 C 150 54, 176 62, 236 40 M120 60 C 90 54, 64 62, 4 40"/>
+    <path d="M120 34 C 140 22, 160 22, 186 8 M120 34 C 100 22, 80 22, 54 8"/>
+    <path d="M120 86 C 146 92, 164 104, 200 112 M120 86 C 94 92, 76 104, 40 112"/>
+    <path d="M176 51 C 182 44, 190 42, 198 44 M64 51 C 58 44, 50 42, 42 44"/>
+    <circle cx="120" cy="60" r="5"/>
+  </symbol>
+</svg>
+
+<div class="intro-screen" id="intro" aria-hidden="true">
+  <div class="walk">
+    <div class="steps" id="steps"></div>
+    <svg class="ground" viewBox="0 0 820 20" preserveAspectRatio="none"><path pathLength="1" d="M0 12 H820"/><path pathLength="1" d="M0 6 V18 M164 8 V16 M328 8 V16 M492 8 V16 M656 8 V16 M820 6 V18"/></svg>
+    <div class="pug"><div class="bob"><pre class="pug-a">                                                          %%%%%%%#
+             %%%%                                     <b>%%%%</b>%%%<b>%%%%#</b>####
+           %@@%%####                                <b>%%@@@%%%%%%#####</b>#<b>***</b>
+          %%%    #***                             %<b>@@@%%%@</b>@@<b>%%%%%%</b>#**<b>##**+</b>
+          ##%     ###                            @@<b>%%%@@@%</b>%%%@%###%##<b>****#*</b>
+          ##**   %#**   ##%%@%%#%%@%%##%%%##%%@@%%%@<b>@@%%%%%</b>%   %%%#*    <b>*+**</b>
+           *#####%%%%###%%%%%%%@%%#%%%%%#%%%%%%%@@@%%%@@%##     *#<b>##</b>    <b>***+++</b>
+                %%%%%%%%%%%%@%%%%%@%%#%%%%%#%%@@%%%@@%%#####   #<b>###*####*+****++</b>
+              ####%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%###%########<b>#####*****@@@@@@</b>
+             ####%%%%%%%%%%%%%%%%###%%%###%#%##%##%########*#***<b>*****+++++=@@@@==</b>
+            #####%##%##%###############################*****++++<b>+++==+==========</b>
+            ####*##%################################*****++=++===<b>=====-====---=</b>
+             **###***###***###***###***###***###***##*+==++==-====<b>---===---===</b>
+              **+**##***###*+**#*++****+++****+**#*+++++==--===---===
+                #****###*++**++==+++===++++=++**++++++=-==
+                 *###*****+====+=====+====+++==++++======-
+                 #**###*+======-=============++++++  =====
+                 ######*+====  ==========     +++++  =====
+                  #####+====                  ****+  +====
+                  #**#*+====                  ***++  +===+
+                  ##*+======                 *****+  ==+===
+                  *++++=---=                 ***+==  ==-==+
+                  ***======-                 *+++++  ==+==-</pre><pre class="pug-b">                                                          %%%%%%%#
+             %%%%                                     <b>%%%%</b>%%%<b>%%%%#</b>####
+           %@@%%####                                <b>%%@@@%%%%%%#####</b>#<b>***</b>
+          %%%    #***                             %<b>@@@%%%@</b>@@<b>%%%%%%</b>#**<b>##**+</b>
+          ##%     ###                            @@<b>%%%@@@%</b>%%%@%###%##<b>****#*</b>
+          ##**   %#**   ##%%@%%#%%@%%##%%%##%%@@%%%@<b>@@%%%%%</b>%   %%%#*    <b>*+**</b>
+           *#####%%%%###%%%%%%%@%%#%%%%%#%%%%%%%@@@%%%@@%##     *#<b>##</b>    <b>***+++</b>
+                %%%%%%%%%%%%@%%%%%@%%#%%%%%#%%@@%%%@@%%#####   #<b>###*####*+****++</b>
+              ####%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%###%########<b>#####*****@@@@@@</b>
+             ####%%%%%%%%%%%%%%%%###%%%###%#%##%##%########*#***<b>*****+++++=@@@@==</b>
+            #####%##%##%###############################*****++++<b>+++==+==========</b>
+            ########%###############################****++=+++===<b>=====-====---=</b>
+             **###***####**###***###***###***###****#*+==++==-====<b>---===---===</b>
+              #***###***##*****#**++***++*******###+++++==--===---===
+                #*****#*+++***+==+++===+++==++***+***+=-==
+                 *##**++**++===+==-==+=====++==+***+=====-
+                 #**** ++======-=============+++++++++===
+                 ###**  ++===  ==========      ****++====
+                ####**  +=====                 *****+====
+                ###***  ======                 ****++====
+                *****   ++==-=                 ****======
+                #*+==+  =======                *+++++=--=
+                +++++=  ++==-==                ***+=--===</pre></div></div>
+  </div>
+  <svg class="arc" viewBox="0 0 400 140" aria-hidden="true"><path pathLength="1" d="M20 120 A 180 180 0 0 1 380 120"/><path pathLength="1" d="M200 34 V6 M188 18 H212"/></svg>
+  <p class="welcome"><span class="type" id="type"></span><span class="cursor"></span></p>
+  <p class="who">Daniel Chihuan Meza</p>
+  <p class="skip">click anywhere to skip</p>
+</div>
+<div class="fx" id="fx" aria-hidden="true">
+  <canvas class="wash" id="ink"></canvas>
+  <div class="fx-title"><svg class="fx-sigil" viewBox="0 0 240 120"><use href="#sigil"/></svg><span></span></div>
+</div>
+<div class="dusk" id="dusk" aria-hidden="true">
+  <div class="dusk-lines"></div>
+  <div class="dusk-dots"></div>
+  <div class="dusk-mark"><span class="dusk-rule"></span><span class="dusk-tag">INDEX &mdash; ENTERING THE SITE &mdash; 01</span></div>
+</div>
+<header class="nav" id="nav">
+  <nav>
+    <a href="#about">About me</a>
+    <a href="#skills">Skills</a>
+    <a href="#art">Art</a>
+    <a href="#resume">Resume</a>
+    <a href="#project">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="landing land-pre" id="home" aria-label="Introduction">
+  <div class="float-field" id="float-field" aria-hidden="true">
+    <div class="ft" data-w="110" data-h="110"><div class="ft-x"><div class="ft-y"><div class="fw"><span class="titlebar"><i></i><span>toby.jpg</span><i></i></span><img src="images/float/toby.webp" alt="" width="110" height="110" decoding="async"></div></div></div></div>
+    <div class="ft" data-w="120" data-h="100" data-cols="28"><div class="ft-x"><div class="ft-y"><pre class="fs"><span class="af"> .------------------------. </span>
+<span class="af">| .----------------------. |</span>
+<span class="af">| |</span>                      <span class="af">| |</span>
+<span class="af">| |</span>  :######*            <span class="af">| |</span>
+<span class="af">| |</span>  :@@#*#@@# ::    ::  <span class="af">| |</span>
+<span class="af">| |</span>  :@@* :@@@ #@#  #@@  <span class="af">| |</span>
+<span class="af">| |</span>  :@@@@@@#:  @@*:@@:  <span class="af">| |</span>
+<span class="af">| |</span>  :@@*       :@@@@*   <span class="af">| |</span>
+<span class="af">| |</span>  :@@*        *@@#    <span class="af">| |</span>
+<span class="af">| |</span>             **@@     <span class="af">| |</span>
+<span class="af">| |</span>             ##*      <span class="af">| |</span>
+<span class="af">| |</span>                      <span class="af">| |</span>
+<span class="af">| '----------------------' |</span>
+<span class="af"> '------------------------' </span></pre></div></div></div>
+    <div class="ft" data-w="128" data-h="101"><div class="ft-x"><div class="ft-y"><div class="fw"><span class="titlebar"><i></i><span>apples.jpg</span><i></i></span><img src="images/float/art2.webp" alt="" width="128" height="101" decoding="async"></div></div></div></div>
+    <div class="ft" data-w="140" data-h="89" data-cols="37"><div class="ft-x"><div class="ft-y"><pre class="fs"><span class="af"> .---------------------------------. </span>
+<span class="af">| .-------------------------------. |</span>
+<span class="af">| |</span>                               <span class="af">| |</span>
+<span class="af">| |</span>                               <span class="af">| |</span>
+<span class="af">| |</span>    *####*:   :##*      :##*   <span class="af">| |</span>
+<span class="af">| |</span>  :@@#***#*   @@@@*    :@@@#   <span class="af">| |</span>
+<span class="af">| |</span>  @@#  ***:  *@@:@@:  *@*#@#   <span class="af">| |</span>
+<span class="af">| |</span>  #@@  #@@@ :@@#*@@# *@#*#@@*  <span class="af">| |</span>
+<span class="af">| |</span>  :@@#**#@@ @@####@@**###@@@#  <span class="af">| |</span>
+<span class="af">| |</span>    *####*::**    :**    ***   <span class="af">| |</span>
+<span class="af">| |</span>                               <span class="af">| |</span>
+<span class="af">| |</span>                               <span class="af">| |</span>
+<span class="af">| '-------------------------------' |</span>
+<span class="af"> '---------------------------------' </span></pre></div></div></div>
+    <div class="ft paper" data-w="92" data-h="96"><div class="ft-x"><div class="ft-y"><div class="fw"><span class="titlebar"><i></i><span>resume.pdf</span><i></i></span><img src="images/float/resume.webp" alt="" width="92" height="96" decoding="async"></div></div></div></div>
+    <div class="ft" data-w="120" data-h="100" data-cols="28"><div class="ft-x"><div class="ft-y"><pre class="fs"><span class="af"> .------------------------. </span>
+<span class="af">| .----------------------. |</span>
+<span class="af">| |</span>                      <span class="af">| |</span>
+<span class="af">| |</span>                      <span class="af">| |</span>
+<span class="af">| |</span>   @@@@@@@#           <span class="af">| |</span>
+<span class="af">| |</span>   @@# :#@@# *#####:  <span class="af">| |</span>
+<span class="af">| |</span>   @@@**#@@**@@***#:  <span class="af">| |</span>
+<span class="af">| |</span>   @@@@@@#* :@@@@@#:  <span class="af">| |</span>
+<span class="af">| |</span>   @@#      :*:::@@@  <span class="af">| |</span>
+<span class="af">| |</span>   @@#      :@@@@@#:  <span class="af">| |</span>
+<span class="af">| |</span>                      <span class="af">| |</span>
+<span class="af">| |</span>                      <span class="af">| |</span>
+<span class="af">| '----------------------' |</span>
+<span class="af"> '------------------------' </span></pre></div></div></div>
+    <div class="ft" data-w="150" data-h="96"><div class="ft-x"><div class="ft-y"><img class="fseal" src="images/float/seal.webp" alt="" width="360" height="231" decoding="async"></div></div></div>
+    <div class="ft" data-w="160" data-h="81" data-cols="46"><div class="ft-x"><div class="ft-y"><pre class="fs"><span class="af"> .------------------------------------------. </span>
+<span class="af">| .----------------------------------------. |</span>
+<span class="af">| |</span>                                        <span class="af">| |</span>
+<span class="af">| |</span>                                        <span class="af">| |</span>
+<span class="af">| |</span>   *#@@@#:  ######*   *#@@@#: :#@@@##   <span class="af">| |</span>
+<span class="af">| |</span>  #@@*:**:  @@#**@@@ #@@::**: @@#::**   <span class="af">| |</span>
+<span class="af">| |</span>  *@@@##*   @@#:*@@@ *@@@##*  #@@@##*   <span class="af">| |</span>
+<span class="af">| |</span>    *##@@@  @@@@@##   :*##@@#  :*##@@*  <span class="af">| |</span>
+<span class="af">| |</span>  *#***@@@  @@#      *#***@@# ##***@@#  <span class="af">| |</span>
+<span class="af">| |</span>  :##@@##   ##*      *##@@#*  *##@@#*   <span class="af">| |</span>
+<span class="af">| |</span>                                        <span class="af">| |</span>
+<span class="af">| |</span>                                        <span class="af">| |</span>
+<span class="af">| '----------------------------------------' |</span>
+<span class="af"> '------------------------------------------' </span></pre></div></div></div>
+    <div class="ft" data-w="86" data-h="119"><div class="ft-x"><div class="ft-y"><div class="fw"><span class="titlebar"><i></i><span>still_life.jpg</span><i></i></span><img src="images/float/art1.webp" alt="" width="86" height="119" decoding="async"></div></div></div></div>
+    <div class="ft" data-w="120" data-h="100" data-cols="28"><div class="ft-x"><div class="ft-y"><pre class="fs"><span class="af"> .------------------------. </span>
+<span class="af">| .----------------------. |</span>
+<span class="af">| |</span>                      <span class="af">| |</span>
+<span class="af">| |</span>      ****      ###   <span class="af">| |</span>
+<span class="af">| |</span>     *@@@@#     #@@   <span class="af">| |</span>
+<span class="af">| |</span>    :@@@@@@:    ###   <span class="af">| |</span>
+<span class="af">| |</span>    @@@*:@@@    @@@:  <span class="af">| |</span>
+<span class="af">| |</span>   *@@#  #@@#   @@@:  <span class="af">| |</span>
+<span class="af">| |</span>  :@@@@@@@@@@:  @@@:  <span class="af">| |</span>
+<span class="af">| |</span>  @@@#*****@@@  @@@:  <span class="af">| |</span>
+<span class="af">| |</span> :###      *##: ###   <span class="af">| |</span>
+<span class="af">| |</span>                      <span class="af">| |</span>
+<span class="af">| '----------------------' |</span>
+<span class="af"> '------------------------' </span></pre></div></div></div>
+    <div class="ft" data-w="54" data-h="90"><div class="ft-x"><div class="ft-y"><svg class="fm" viewBox="0 0 160 270"><use href="#meander"/></svg></div></div></div>
+    <div class="ft" data-w="58" data-h="150"><div class="ft-x"><div class="ft-y"><div class="fw"><span class="titlebar"><i></i><span></span><i></i></span><img src="images/float/art3.webp" alt="" width="58" height="150" decoding="async"></div></div></div></div>
+    <div class="ft" data-w="88" data-h="101"><div class="ft-x"><div class="ft-y"><div class="fw"><span class="titlebar"><i></i><span>vigilance.png</span><i></i></span><img src="images/float/vig.webp" alt="" width="88" height="101" decoding="async"></div></div></div></div>
+    <div class="ft" data-w="120" data-h="12"><div class="ft-x"><div class="ft-y"><svg class="fl2" viewBox="0 0 400 40"><use href="#loop1"/></svg></div></div></div>
+  </div>
+  <span class="crop tl" aria-hidden="true"></span><span class="crop tr" aria-hidden="true"></span><span class="crop bl" aria-hidden="true"></span><span class="crop br" aria-hidden="true"></span>
+  <span class="land-tag" aria-hidden="true">PORTFOLIO &mdash; 1:1</span>
+  <a class="land-priv" id="land-priv" href="#privacy" aria-label="Privacy: no cookies, no tracking. Jump to privacy and security details">PRIVACY<span class="lp-long"> &mdash; NO COOKIES &middot; NO TRACKING</span></a>
+  <div class="land-core" id="land-core">
+    <h1 class="land-name">Daniel Chihuan Meza</h1>
+    <span class="land-bar" aria-hidden="true"></span>
+    <p class="land-line">Neuroscience &amp; Psychology</p>
+    <p class="land-line muted">Rutgers University</p>
+    <nav class="land-btns" aria-label="Quick links">
+      <a class="btn land-btn" href="#about">About Me</a>
+      <a class="btn land-btn primary" href="#contact">Get in Touch</a>
+      <a class="btn land-btn" href="#experience">Experience</a>
+    </nav>
+    <a class="icon land-li" href="https://www.linkedin.com/in/danielchihuan" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+      </a>
+  </div>
+  <a class="land-cue" id="land-cue" href="#start">
+    <span>scroll down to enter</span>
+    <i aria-hidden="true"></i>
+  </a>
+</section>
+
+<div class="dusk-gap" id="dusk-gap" aria-hidden="true"></div>
+
+<section class="hero" id="start">
+  <img class="fl f1" src="images/flower-blue.webp" alt="" width="120" height="220" aria-hidden="true" decoding="async"><img class="fl f2" src="images/flower-blue.webp" alt="" width="120" height="220" aria-hidden="true" decoding="async"><img class="fl f3" src="images/flower-blue.webp" alt="" width="120" height="220" aria-hidden="true" decoding="async"><span class="dots d1" aria-hidden="true"></span>
+  <div class="music-row">
+  <div class="player-wrap">
+  <div class="win player">
+    <div class="titlebar"><i></i><span>music I like</span><i></i></div>
+    <iframe id="spotify" title="Spotify player" loading="lazy" allow="encrypted-media" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+  </div>
+  <div class="player-bar"><button id="next" class="btn" type="button">next song &#9656;</button></div>
+  </div>
+  <div class="win albums">
+    <div class="titlebar"><i></i><span>Favorite albums:</span><i></i></div>
+    <div class="albums-body">
+      <div class="recs">
+        <figure class="rec">
+          <div class="rec-mat"><img src="images/album-aja.webp" alt="Aja by Steely Dan, on vinyl" width="360" height="360" loading="lazy" decoding="async"></div>
+          <figcaption><b>Aja</b><span>Steely Dan</span><span class="rec-meta">1977 &middot; Jazz rock</span></figcaption>
+        </figure>
+        <figure class="rec">
+          <div class="rec-mat"><img src="images/album-headhunters.webp" alt="Head Hunters by Herbie Hancock, on vinyl" width="360" height="360" loading="lazy" decoding="async"></div>
+          <figcaption><b>Head Hunters</b><span>Herbie Hancock</span><span class="rec-meta">1973 &middot; Jazz funk</span></figcaption>
+        </figure>
+        <figure class="rec">
+          <div class="rec-mat"><img src="images/album-elis-tom.webp" alt="Elis &amp; Tom by Elis Regina &amp; Ant&ocirc;nio Carlos Jobim, on vinyl" width="360" height="360" loading="lazy" decoding="async"></div>
+          <figcaption><b>Elis &amp; Tom</b><span>Elis Regina &amp; Ant&ocirc;nio Carlos Jobim</span><span class="rec-meta">1974 &middot; Bossa nova</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+  </div>
+  <svg class="meander" viewBox="0 0 160 270" aria-hidden="true"><use href="#meander"/></svg>
+  <svg class="loop l1" viewBox="0 0 400 40" aria-hidden="true"><use href="#loop1"/></svg>
+</section>
+
+<section class="sec about" id="about">
+<pre class="seal" aria-hidden="true">            <span class="sd">#%%@@@@@@@@@@%##</span><span class="sm">*+~</span>
+          <span class="sd">@@@@%%#</span><span class="sm">+</span><span class="sd">#%@%#*%%%#</span><span class="sm">+=*</span><span class="sd">##</span><span class="sm">=</span>
+       <span class="sm">*</span><span class="sd">%#%%%%#@@#</span><span class="sl">....::::</span><span class="sm">++--=+</span><span class="sd">%%#</span>
+     <span class="sm">=--~~====~</span><span class="sl">`........::..</span><span class="sm">~~--+</span><span class="sd">%%</span><span class="sm">*=</span>
+    <span class="sl">....</span><span class="sm">~</span><span class="sd">%**%</span><span class="sm">*~</span><span class="sl">.::::</span><span class="se">@@@@</span><span class="sl">.::..</span><span class="sm">=-</span><span class="sl">`</span><span class="sm">-</span><span class="sd">%@</span><span class="sm">+</span><span class="sl">`</span><span class="sm">-+~</span>
+   <span class="sl">::::..:</span><span class="sd">%%%</span><span class="sm">*</span><span class="sl">:.:::</span><span class="se">@@@@@@</span><span class="sl">::..</span><span class="sm">-</span><span class="sl">::</span><span class="sm">-</span><span class="sd">@@</span><span class="sm">+</span><span class="sl">:.&#x27;</span><span class="sm">~+=</span>
+  <span class="se">%@@@%</span><span class="sl">:...</span><span class="sm">-</span><span class="sl">`&#x27;....:</span><span class="se">%@@@@</span><span class="sl">:::..`:-</span><span class="sm">*</span><span class="sd">%#</span><span class="sl">&#x27;::-::</span><span class="sm">-~=+*</span><span class="sd">##           </span><span class="sm">*</span><span class="sd">#</span><span class="sm">*</span><span class="sd">#%%%%%</span><span class="sm">+</span>
+ <span class="sl">:</span><span class="se">@@@@@</span><span class="sl">...</span><span class="se">%%</span><span class="sl">...:............:.-</span><span class="sm">+**</span><span class="sl">:</span><span class="sm">=~=+=~</span><span class="sl">:</span><span class="sm">-</span><span class="sl">::-</span><span class="sm">~~-~+*=</span><span class="sl">-</span><span class="sm">=</span><span class="sd">**</span><span class="sm">*=~</span><span class="sl">-:`:</span><span class="sm">-</span><span class="sl">::</span><span class="sm">-*</span><span class="sd">#@@@%%%</span>
+ <span class="sl">::</span><span class="se">%@%</span><span class="sl">.::.</span><span class="se">%%</span><span class="sl">::::</span><span class="sm">+</span><span class="sl">.....::...:`:</span><span class="sm">~*=~+=-=~--</span><span class="sl">:--::-</span><span class="sm">~</span><span class="sl">-:&#x27;.:</span><span class="sm">=+~</span><span class="sl">````&#x27;::-`</span><span class="sm">-=</span><span class="sl">-</span><span class="sm">=+</span><span class="sd">*#%</span><span class="sm">+++=~+***+</span><span class="sd">##</span>
+<span class="sl">:.::..:::::::.:::</span><span class="sm">+</span><span class="sl">:....</span><span class="sm">+~-~</span><span class="sl">:</span><span class="sm">~</span><span class="sd">#%</span><span class="sm">+=~==-~~-</span><span class="sl">-:``:</span><span class="sm">-=~</span><span class="sl">&#x27;.`</span><span class="sm">-~</span><span class="sd">#</span><span class="sm">*=</span><span class="sl">:&#x27;`</span><span class="sm">~</span><span class="sd">#%%%@*%</span><span class="sm">+~=</span><span class="sd">%%</span><span class="sm">~-</span><span class="sl">-:`</span><span class="sm">-+++</span><span class="sd">*#</span><span class="sm">+*</span><span class="sd">*#@@@@@@@</span>
+<span class="sm">*</span><span class="sl">`...:.:::.:::...</span><span class="sm">+~</span><span class="sl">`&#x27;.</span><span class="sm">-</span><span class="sl">:`::</span><span class="sm">*</span><span class="sd">@%#</span><span class="sm">+==-~=--</span><span class="sl">:`</span><span class="sm">---~</span><span class="sl">:&#x27;.:-:`</span><span class="sm">+</span><span class="sd">@@%</span><span class="sm">=-~~</span><span class="sd">##%@@</span><span class="sm">+</span><span class="sl">&#x27;:`:&#x27;.:`&#x27;...&#x27;</span><span class="sm">-===~~**</span><span class="sd">#</span><span class="sm">~+</span><span class="sd">@%%@@@@@</span><span class="sm">+</span><span class="sd">@@</span>
+<span class="sm">=</span><span class="sl">&#x27;&#x27;.`</span><span class="sm">-</span><span class="sl">.::.......</span><span class="sm">++=-</span><span class="sl">&#x27;`</span><span class="sm">~~=+</span><span class="sd">%@%#</span><span class="sm">==~</span><span class="sl">:</span><span class="sm">~=----==+=</span><span class="sl">&#x27;.``&#x27;``&#x27;:</span><span class="sd">@@%@@@</span><span class="sm">*</span><span class="sd">*#</span><span class="sm">~</span><span class="sl">&#x27;:</span><span class="sd">%%#</span><span class="sm">=-~*</span><span class="sd">%%</span><span class="sm">=</span><span class="sl">``-</span><span class="sd">*%%</span><span class="sm">~</span><span class="sl">`&#x27;&#x27;-:-</span><span class="sm">~</span><span class="sl">`</span><span class="sm">~=</span><span class="sd">*%@@@</span><span class="sm">+-</span><span class="sd">%%</span><span class="sm">*</span><span class="sd">%@%%#</span>
+<span class="sm">+-~-</span><span class="sl">`</span><span class="sm">~~~</span><span class="sl">::::::.</span><span class="sm">==~~</span><span class="sl">:</span><span class="sm">-</span><span class="sd">%%</span><span class="sm">*</span><span class="sd">%@%%</span><span class="sm">*</span><span class="sl">-</span><span class="sm">+=++~</span><span class="sl">`</span><span class="sm">-=++</span><span class="sd">#</span><span class="sm">+</span><span class="sl">`.&#x27;&#x27;..&#x27;....`</span><span class="sm">=</span><span class="sd">%@@%%%@@#%%@</span><span class="sm">*+=</span><span class="sl">`</span><span class="sm">-~=~~=</span><span class="sd">%@@@#</span><span class="sm">~</span><span class="sl">:-</span><span class="sm">=**</span><span class="sd">*</span><span class="sl">:</span><span class="sm">~=~</span><span class="sd">@</span><span class="sm">~~</span><span class="sd">@%@@@#</span><span class="sm">=</span><span class="sd">#%@@</span><span class="sm">*</span><span class="sd">%@%</span>
+<span class="sd">#%%%</span><span class="sm">~</span><span class="sl">:</span><span class="sm">=</span><span class="sd">%%%@%</span><span class="sm">==+++++~-~~</span><span class="sd">%%%</span><span class="sm">++++</span><span class="sd">#</span><span class="sm">+</span><span class="sl">-</span><span class="sm">-~+</span><span class="sd">#%@</span><span class="sm">=</span><span class="sl">`..&#x27;........``&#x27;&#x27;&#x27;</span><span class="sm">-=</span><span class="sd">%@@@@%</span><span class="sm">+~</span><span class="sl">:&#x27;`:</span><span class="sm">~</span><span class="sd">#</span><span class="sm">*</span><span class="sd">@%</span><span class="sm">==</span><span class="sd">#%%#</span><span class="sm">*~-</span><span class="sl">`</span><span class="sm">-</span><span class="sd">*</span><span class="sm">~~</span><span class="sd">#</span><span class="sm">+</span><span class="sd">%</span><span class="sl">`</span><span class="sm">*</span><span class="sd">%</span><span class="sm">=+*</span><span class="sd">%*%%%@%@%</span><span class="sm">*</span><span class="sd">%</span><span class="sl">:</span><span class="sm">*</span><span class="sd">@@</span>
+ <span class="sd">@%</span><span class="sm">**-+</span><span class="sd">%#</span><span class="sm">--~~~</span><span class="sl">:&#x27;:</span><span class="sm">=+</span><span class="sl">::</span><span class="sd">%@%</span><span class="sm">+*</span><span class="sd">*#%#</span><span class="sl">:</span><span class="sm">~++*</span><span class="sd">%@</span><span class="sm">*</span><span class="sl">`....&#x27;&#x27;&#x27;.&#x27;&#x27;&#x27;:</span><span class="sm">-~~-==+===~</span><span class="sl">-:`..&#x27;::--</span><span class="sd">*</span><span class="sm">*</span><span class="sd">@%**</span><span class="sm">+~=~</span><span class="sl">:`&#x27;.&#x27;`&#x27;-</span><span class="sm">==</span><span class="sd">%@@#</span><span class="sm">+</span><span class="sd">#%</span><span class="sm">+</span><span class="sl">:</span><span class="sm">+</span><span class="sd">#%</span><span class="sm">+</span><span class="sd">@@</span><span class="sm">*</span><span class="sl">:</span><span class="sm">=</span><span class="sd">*</span><span class="sm">~</span><span class="sd">#@@@@#</span>
+ <span class="sd">%%</span><span class="sm">~-</span><span class="sl">:`</span><span class="sm">~</span><span class="sl">`::</span><span class="sm">~=~----~</span><span class="sd">%@@#</span><span class="sm">*</span><span class="sd">##%</span><span class="sm">+-~</span><span class="sd">@%</span><span class="sm">*</span><span class="sd">%%</span><span class="sm">+</span><span class="sl">`.&#x27;&#x27;.&#x27;&#x27;...&#x27;``</span><span class="sm">~==**-</span><span class="sl">:</span><span class="sm">-</span><span class="sl">:&#x27;..````</span><span class="sm">~-</span><span class="sl">:-`&#x27;:</span><span class="sm">+</span><span class="sd">%%</span><span class="sm">=</span><span class="sl">:&#x27;&#x27;&#x27;..`&#x27;&#x27;`--:::</span><span class="sm">~=</span><span class="sd">%</span><span class="sm">+=</span><span class="sd">##</span><span class="sm">~</span><span class="sd">**</span><span class="sm">*</span><span class="sd">*#</span><span class="sl">-</span><span class="sd">%@#@@@%@@@@#</span><span class="sm">=</span><span class="sd">@@</span>
+  <span class="sd">@</span><span class="sm">-</span><span class="sl">:`&#x27;::--:`:</span><span class="sm">-+</span><span class="sd">%@@@%##%@#</span><span class="sl">:</span><span class="sm">*</span><span class="sd">%%@@%</span><span class="sm">=</span><span class="sl">`.`&#x27;&#x27;&#x27;`:```</span><span class="sm">-~</span><span class="sl">-</span><span class="sm">-++~</span><span class="sl">:.....&#x27;`</span><span class="sm">-=~~===+=</span><span class="sl">:`:::.:&#x27;..&#x27;:</span><span class="sm">~=~</span><span class="sl">`</span><span class="sm">-*</span><span class="sd">%</span><span class="sm">=</span><span class="sd">#*%</span><span class="sm">*</span><span class="sl">:</span><span class="sd">#%</span><span class="sm">*</span><span class="sl">.</span><span class="sm">~</span><span class="sl">:</span><span class="sd">#@%@@</span><span class="sm">*</span><span class="sl">:..&#x27;&#x27;.:</span><span class="sm">~*</span><span class="sd">#</span><span class="sl">`</span><span class="sd">%@@@</span><span class="sm">*</span>
+   <span class="sd">#</span><span class="sl">:``::</span><span class="sm">-=+*</span><span class="sd">%%@@@%#</span><span class="sm">*</span><span class="sd">*#%</span><span class="sm">~=</span><span class="sd">#%%@%</span><span class="sm">-</span><span class="sl">&#x27;.`:&#x27;`:-</span><span class="sm">--~-~~=~</span><span class="sl">`&#x27;..&#x27;``&#x27;&#x27;.&#x27;::</span><span class="sm">~~*</span><span class="sd">#</span><span class="sm">=</span><span class="sl">:&#x27;&#x27;:`.&#x27;</span><span class="sm">=</span><span class="sd">@@</span><span class="sm">~</span><span class="sl">&#x27;</span><span class="sm">=**--~</span><span class="sl">.</span><span class="sm">-</span><span class="sd">##</span><span class="sl">:.:</span><span class="sm">~==</span><span class="sd">%%#@@@%</span><span class="sm">+=</span><span class="sd">%@%#%@@%@@%</span><span class="sm">~-</span><span class="sd">@@%@</span><span class="sm">+~</span><span class="sd">%</span>
+   <span class="sd">%#</span><span class="sm">~=+</span><span class="sd">%%#%%%%@@</span><span class="sm">+*</span><span class="sd">%%#</span><span class="sm">*-*</span><span class="sd">#</span><span class="sm">*</span><span class="sd">%#</span><span class="sm">-</span><span class="sl">&#x27;.&#x27;:-``</span><span class="sm">-~~~</span><span class="sl">:</span><span class="sm">--~</span><span class="sl">-</span><span class="sm">-</span><span class="sl">``:</span><span class="sm">~</span><span class="sl">-&#x27;..&#x27;:``</span><span class="sm">-</span><span class="sl">:</span><span class="sm">~-</span><span class="sl">-.&#x27;</span><span class="sm">-+*</span><span class="sd">%%%#@@@#</span><span class="sm">*</span><span class="sd">@#</span><span class="sm">=*~</span><span class="sl">.</span><span class="sm">=</span><span class="sd">#@@@@#</span><span class="sm">=</span><span class="sd">@%%</span><span class="sm">*=</span><span class="sd">%%%</span><span class="sm">*-</span><span class="sd">#</span><span class="sm">+</span><span class="sl">:</span><span class="sm">*</span><span class="sd">%#@@</span><span class="sm">*</span><span class="sd">%@@%</span><span class="sl">&#x27;</span><span class="sd">#@@@</span><span class="sl">`</span><span class="sd">%@@@</span>
+    <span class="sd">%@#%%#</span><span class="sm">-+*</span><span class="sd">*%#</span><span class="sm">~</span><span class="sd">#</span><span class="sm">*</span><span class="sd">#%</span><span class="sm">=++~*+~</span><span class="sl">:``.</span><span class="sm">~~</span><span class="sl">::</span><span class="sm">-=----</span><span class="sl">-`&#x27;&#x27;`````:`</span><span class="sm">~-</span><span class="sl">::</span><span class="sm">--</span><span class="sl">:..&#x27;</span><span class="sm">-+*</span><span class="sd">#*</span><span class="sm">+</span><span class="sd">#@@@@#</span><span class="sl">`</span><span class="sm">*</span><span class="sd">*@</span><span class="sl">`</span><span class="sm">==</span><span class="sd">#</span><span class="sm">~+</span><span class="sd">@@@@@@*</span><span class="sm">+</span><span class="sd">@%#%%@@%</span><span class="sm">+</span><span class="sd">%%%@%#%@</span><span class="sl">-</span><span class="sm">*</span><span class="sd">@@@@</span><span class="sl">:</span><span class="sm">=</span><span class="sd">@</span><span class="sm">=~</span><span class="sd">@@</span><span class="sm">+</span><span class="sd">@@@</span>
+     <span class="sm">=</span><span class="sl">`&#x27;`:</span><span class="sd">#</span><span class="sm">*</span><span class="sd">#%</span><span class="sm">+*</span><span class="sd">%</span><span class="sm">*</span><span class="sd">#</span><span class="sm">+</span><span class="sl">:</span><span class="sm">-~==-</span><span class="sl">:</span><span class="sm">--</span><span class="sl">`.</span><span class="sm">+=</span><span class="sl">:</span><span class="sm">~~-~---</span><span class="sl">:&#x27;`:::``&#x27;:`</span><span class="sm">-~=-</span><span class="sl">-`..:</span><span class="sm">==*++***</span><span class="sd">##</span><span class="sm">+</span><span class="sd">#%#@@</span><span class="sm">*+</span><span class="sd">@@@@@</span><span class="sm">+</span><span class="sd">@@</span><span class="sm">+~</span><span class="sd">%%</span><span class="sm">-=</span><span class="sd">#@@@@@#</span><span class="sm">-</span><span class="sl">-</span><span class="sm">*+*</span><span class="sd">%@@@%</span><span class="sm">+=*</span><span class="sd">@@@@%</span><span class="sl">`</span><span class="sm">-**</span><span class="sd">#</span><span class="sm">~</span><span class="sd">%@@@</span>
+     <span class="sd">%</span><span class="sm">=</span><span class="sd">#</span><span class="sm">*+=~=~=</span><span class="sd">###</span><span class="sm">*-*=++</span><span class="sl">-</span><span class="sm">=+=</span><span class="sl">&#x27;&#x27;</span><span class="sm">**=</span><span class="sl">-</span><span class="sm">~=-~-</span><span class="sl">:&#x27;.&#x27;&#x27;:`&#x27;....`</span><span class="sm">-~</span><span class="sl">`..&#x27;`&#x27;:</span><span class="sm">~</span><span class="sl">:</span><span class="sd">#%@@</span><span class="sm">*</span><span class="sd">#%%@%@@@@@@@%@@@%%#@@</span><span class="sm">==</span><span class="sd">@@@</span><span class="sm">+</span><span class="sl">:&#x27;:&#x27;</span><span class="sm">=</span><span class="sd">@@@@#</span><span class="sl">:</span><span class="sm">*</span><span class="sd">@@@@@%</span><span class="sm">+</span><span class="sd">%%%@@@@%%@@</span><span class="sm">*</span><span class="sd">@@@</span>
+     <span class="sd">@##</span><span class="sm">=~+-++-+</span><span class="sd">#</span><span class="sl">:</span><span class="sm">~*+*~~+</span><span class="sd">*</span><span class="sm">+</span><span class="sl">`&#x27;</span><span class="sd">*#</span><span class="sm">*</span><span class="sl">:</span><span class="sm">~~~~</span><span class="sl">:`..&#x27;&#x27;&#x27;...&#x27;&#x27;&#x27;&#x27;`&#x27;.&#x27;``&#x27;&#x27;:&#x27;.`-</span><span class="sm">~-~</span><span class="sd">@#%%@@@@@@@</span><span class="sm">+=</span><span class="sd">@@@@</span><span class="sm">*+~</span><span class="sd">@@%</span><span class="sm">~</span><span class="sd">%@@@%@@@@@%@@%@@</span><span class="sm">*=</span><span class="sd">@@#%#</span><span class="sm">=</span><span class="sd">*%%@%</span><span class="sm">++</span><span class="sd">#@%</span><span class="sl">`</span><span class="sm">-</span><span class="sd">##@</span>
+     <span class="sd">@%</span><span class="sm">+=+</span><span class="sl">-</span><span class="sm">=~===</span><span class="sl">`</span><span class="sm">+*+*~++</span><span class="sd">*</span><span class="sm">=</span><span class="sl">:.</span><span class="sm">*</span><span class="sd">%%</span><span class="sm">--==-</span><span class="sl">`...&#x27;&#x27;....``&#x27;:`..&#x27;.&#x27;&#x27;&#x27;&#x27;:</span><span class="sm">=</span><span class="sd">*</span><span class="sm">+</span><span class="sl">:`</span><span class="sm">+</span><span class="sd">%@@</span><span class="sm">~</span><span class="sd">@@%</span><span class="sm">*</span><span class="sl">:</span><span class="sm">=</span><span class="sd">@%</span><span class="sl">`</span><span class="sd">@@@%</span><span class="sl">:</span><span class="sd">%@@@%</span><span class="sl">`</span><span class="sd">%@@@@@%</span><span class="sm">+</span><span class="sd">#@@@%</span><span class="sm">*=</span><span class="sd">%@@@</span><span class="sl">::</span><span class="sd">@@@#%###%#</span><span class="sm">+</span><span class="sd">#</span><span class="sm">=-</span><span class="sd">#</span><span class="sm">*</span><span class="sd">@%@</span>
+     <span class="sd">@</span><span class="sm">+</span><span class="sd">#</span><span class="sm">*</span><span class="sl">:</span><span class="sm">+*+</span><span class="sd">*</span><span class="sl">:</span><span class="sm">~+=</span><span class="sd">#</span><span class="sm">+=</span><span class="sd">%#</span><span class="sm">*~</span><span class="sl">`.</span><span class="sm">*</span><span class="sd">#%</span><span class="sm">+</span><span class="sl">`</span><span class="sd">*</span><span class="sm">*-</span><span class="sl">&#x27;.&#x27;:&#x27;&#x27;&#x27;..&#x27;:`-:..&#x27;.&#x27;&#x27;..&#x27;:</span><span class="sm">=</span><span class="sd">##*#@@@@</span><span class="sm">=~+</span><span class="sd">#</span><span class="sl">.</span><span class="sm">-</span><span class="sd">@@#</span><span class="sl">:</span><span class="sm">*</span><span class="sd">@@</span><span class="sm">~=</span><span class="sd">@@@@</span><span class="sm">~+</span><span class="sd">@@@#</span><span class="sm">+</span><span class="sd">#</span><span class="sm">-~~</span><span class="sd">#%@</span><span class="sl">:</span><span class="sm">-</span><span class="sd">#@#%@@@</span><span class="sm">*</span><span class="sd">@#</span><span class="sm">~</span><span class="sd">*%%####@@%@@%@@#%</span>
+     <span class="sd">@</span><span class="sm">+-</span><span class="sl">-</span><span class="sm">=+*</span><span class="sd">%</span><span class="sl">&#x27;</span><span class="sm">**=+~+</span><span class="sd">##</span><span class="sm">+~</span><span class="sl">-`</span><span class="sm">+</span><span class="sd">#%</span><span class="sm">=</span><span class="sl">&#x27;</span><span class="sm">++-</span><span class="sl">..</span><span class="sm">-=</span><span class="sl">:`.&#x27;.`::-&#x27;.```&#x27;.&#x27;:-</span><span class="sm">-~+</span><span class="sd">@@@@@%%@</span><span class="sm">=</span><span class="sd">@@</span><span class="sm">-+</span><span class="sd">@@@@</span><span class="sm">+-++</span><span class="sd">@@@%</span><span class="sm">+</span><span class="sd">###%%</span><span class="sm">~*</span><span class="sd">@%@@@%@</span><span class="sl">`</span><span class="sd">@@@%%</span><span class="sm">*==*</span><span class="sd">%#</span><span class="sm">*</span><span class="sd">%%</span><span class="sm">+</span><span class="sd">##%#</span><span class="sm">+</span><span class="sd">#%###</span><span class="sm">+</span><span class="sd">@*#@@</span>
+     <span class="sd">@</span><span class="sm">+</span><span class="sl">`-</span><span class="sm">=+</span><span class="sd">@</span><span class="sl">-</span><span class="sd">#%</span><span class="sm">++</span><span class="sl">-</span><span class="sm">~=~~-</span><span class="sl">:`</span><span class="sm">~=</span><span class="sd">#</span><span class="sm">+</span><span class="sl">&#x27;</span><span class="sm">*~-</span><span class="sl">.:</span><span class="sm">~*+</span><span class="sl">`&#x27;`.:&#x27;:`.::``.:</span><span class="sm">=+</span><span class="sd">#%%@%</span><span class="sm">*</span><span class="sd">#%%%%@</span><span class="sm">=~</span><span class="sd">%</span><span class="sm">*</span><span class="sl">:</span><span class="sd">@@@@%@@@@#@@</span><span class="sm">+</span><span class="sd">%@@%</span><span class="sm">*+</span><span class="sd">@%##%@</span><span class="sm">*~+</span><span class="sd">*</span><span class="sm">*</span><span class="sd">#%%@%#%@%**%%#</span><span class="sm">**+</span><span class="sd">#%%</span><span class="sm">*</span><span class="sd">%@@@@@@@@</span>
+      <span class="sd">#</span><span class="sl">-</span><span class="sm">~=</span><span class="sd">#</span><span class="sm">==</span><span class="sd">@%</span><span class="sm">*-=~</span><span class="sl">:</span><span class="sm">~</span><span class="sl">-:&#x27;:</span><span class="sm">~+*</span><span class="sl">.</span><span class="sd">%</span><span class="sm">==</span><span class="sl">.</span><span class="sm">~--+</span><span class="sl">:.&#x27;.```.`</span><span class="sm">-</span><span class="sl">::&#x27;</span><span class="sm">-+*++</span><span class="sd">##%#</span><span class="sm">**</span><span class="sd">%#%</span><span class="sm">=</span><span class="sd">#@@@@@</span><span class="sl">:</span><span class="sd">@%%</span><span class="sm">*</span><span class="sd">%%%%</span><span class="sm">=</span><span class="sd">%@%@%%%</span><span class="sm">*</span><span class="sd">##%%#%%%#%%</span><span class="sm">+</span><span class="sd">@##%%#%%%%%#</span><span class="sm">+</span><span class="sd">#####%%#%%</span><span class="sm">=</span><span class="sl">:</span><span class="sm">-*</span><span class="sd">@@%%@</span>
+      <span class="sd">#</span><span class="sm">~-==~</span><span class="sd">%#</span><span class="sm">*</span><span class="sl">:</span><span class="sm">~~~==+=</span><span class="sl">:</span><span class="sm">-+</span><span class="sd">%</span><span class="sl">`</span><span class="sm">~~~</span><span class="sl">``</span><span class="sm">~---</span><span class="sl">..&#x27;:`&#x27;&#x27;:-`:</span><span class="sm">+</span><span class="sd">%%</span><span class="sm">*==+</span><span class="sd">#%####%%%%@%%@@@@</span><span class="sm">-</span><span class="sd">%</span><span class="sm">*</span><span class="sd">%%%</span><span class="sm">==</span><span class="sl">-</span><span class="sm">=*</span><span class="sd">#%</span><span class="sm">*</span><span class="sd">%%#</span><span class="sm">===*</span><span class="sd">%%</span><span class="sm">*</span><span class="sd">#</span><span class="sm">**</span><span class="sl">:</span><span class="sm">-+</span><span class="sd">#%%</span><span class="sm">+</span><span class="sd">%%%%%%%%%%</span><span class="sm">**</span><span class="sd">#%#%%%@%#%#</span><span class="sl">-</span><span class="sd">@@@@</span>
+      <span class="sm">+*+=+</span><span class="sd">%%#</span><span class="sm">*+~+++**=</span><span class="sl">-</span><span class="sm">-+=</span><span class="sl">.</span><span class="sm">-</span><span class="sl">:</span><span class="sm">-</span><span class="sl">`-</span><span class="sm">=+*</span><span class="sl">`.`:</span><span class="sm">-</span><span class="sl">&#x27;`-</span><span class="sm">-=</span><span class="sd">#%%%</span><span class="sm">*</span><span class="sd">#%%%###%%</span><span class="sm">*</span><span class="sd">%%#%%#%%%%%</span><span class="sm">*</span><span class="sd">%%%%</span><span class="sm">*</span><span class="sd">%%%@@@</span><span class="sm">+</span><span class="sd">%%#</span><span class="sm">=</span><span class="sd">%%%</span><span class="sm">*</span><span class="sd">#</span><span class="sm">=*</span><span class="sd">*</span><span class="sm">=+</span><span class="sd">#%%%@%@#</span><span class="sm">+*</span><span class="sd">#%%%%%%%#%</span><span class="sm">=</span><span class="sd">%@%%@@@%@</span><span class="sm">+</span><span class="sd">@@@@</span>
+           <span class="sm">==~=+*+</span><span class="sl">-::</span><span class="sm">-~==</span><span class="sd">#%</span><span class="sm">-</span><span class="sl">`</span><span class="sm">+~==+</span><span class="sd">%</span><span class="sm">+</span><span class="sl">.&#x27;:</span><span class="sm">-</span><span class="sl">.</span><span class="sm">~+</span><span class="sd">*%@%%###%###**#%%####%%%#%%%%%#</span><span class="sm">*=+</span><span class="sd">#**#@%</span><span class="sl">:</span><span class="sd">#%#</span><span class="sm">*</span><span class="sd">*%%</span><span class="sm">=~=+</span><span class="sd">#</span><span class="sm">*</span><span class="sd">%%@%%%%%%%%%%%%%%%#%%%@%@%%%%#</span><span class="sm">*</span><span class="sd">@</span><span class="sm">=</span><span class="sl">.</span><span class="sm">=</span><span class="sd">#@</span>
+                          <span class="sd">%@%</span><span class="sm">-</span><span class="sd">*%</span><span class="sm">+=</span><span class="sd">@</span><span class="sm">~</span><span class="sl">.```</span><span class="sm">*</span><span class="sd">%%%######*##**##</span><span class="sm">****</span><span class="sd">#%%%%%%%%#%%%#</span><span class="sm">*</span><span class="sd">%%%</span><span class="sm">+=~~=</span><span class="sd">%%%</span><span class="sm">*+=+*</span><span class="sd">###%%%%%%</span><span class="sm">*+*</span><span class="sd">##%%</span><span class="sm">+=+=+</span><span class="sd">%#*@%%%%</span><span class="sm">=+</span><span class="sd">#%</span><span class="sm">*</span><span class="sd">%%%%@@%@</span>
+                            <span class="sd">@@%</span><span class="sm">+++=</span><span class="sl">&#x27;</span><span class="sm">-+*</span><span class="sd">%%*##</span><span class="sm">*</span><span class="sd">########*####</span><span class="sm">+*</span><span class="sd">#%%%%%%%%%%%###</span><span class="sm">++**+*</span><span class="sd">%#</span><span class="sl">`</span><span class="sd">@@%</span><span class="sm">*</span><span class="sd">*#</span><span class="sm">*</span><span class="sd">#</span><span class="sm">*</span><span class="sd">###@%@@%%#%%%%%%%%%@@@%*%%%#%%#</span><span class="sm">+</span><span class="sd">#%#%%</span><span class="sm">=</span><span class="sd">##%@</span>
+                              <span class="sd">@@@</span><span class="sm">=</span><span class="sl">&#x27;</span><span class="sm">+</span><span class="sd">%%##</span><span class="sm">*</span><span class="sd">#%###%%#</span><span class="sm">*</span><span class="sd">###****#</span><span class="sm">*=</span><span class="sd">#@%%%%%#</span><span class="sm">*</span><span class="sd">%%</span><span class="sm">**</span><span class="sd">#</span><span class="sm">~*++*</span><span class="sd">#</span><span class="sm">*==</span><span class="sd">%#</span><span class="sm">=*</span><span class="sd">@%*</span><span class="sm">*</span><span class="sd">%%</span><span class="sm">+*</span><span class="sd">#</span><span class="sm">~</span><span class="sd">##</span><span class="sm">*</span><span class="sd">%%%###%%%%#%%%%%</span><span class="sm">*</span><span class="sd">*%%%%%##%%###%*#%@</span>
+                              <span class="sd">@#</span><span class="sl">:</span><span class="sm">~</span><span class="sd">%%</span><span class="sm">**++</span><span class="sd">#%%%%%#</span><span class="sm">+=***</span><span class="sd">##</span><span class="sm">****=</span><span class="sd">%@@%%%%%%%%#</span><span class="sm">**+*=*</span><span class="sd">#*</span><span class="sm">*=**</span><span class="sd">##</span><span class="sm">+</span><span class="sd">##</span><span class="sm">*</span><span class="sd">%%%%</span><span class="sm">=+</span><span class="sd">#%##</span><span class="sm">+*</span><span class="sd">%%%%#%%%#</span><span class="sm">+</span><span class="sd">##%%%@@%%%%%#*######*#@@</span>
+                             <span class="sm">==~</span><span class="sd">%@%##</span><span class="sm">=+</span><span class="sd">%%%%</span><span class="sm">*-=+**++=+*+*+=</span><span class="sd">%@@##%%%%%%#</span><span class="sm">*++*</span><span class="sd">*</span><span class="sm">+</span><span class="sd">*</span><span class="sm">*</span><span class="sd">##</span><span class="sm">*=</span><span class="sd">##</span><span class="sm">++</span><span class="sd">#%%%@@</span><span class="sm">**</span><span class="sd">#</span><span class="sm">*</span><span class="sd">%##</span><span class="sm">*</span><span class="sd">%%%%%%#%##@%%%%%%@@%%@@%%%#%##%%#@@</span>
+                             <span class="sd">@@@%##%</span><span class="sm">~=</span><span class="sd">##%%</span><span class="sm">*~+*</span><span class="sd">######</span><span class="sm">*+*++</span><span class="sd">#%%</span><span class="sm">+*</span><span class="sd">######</span><span class="sm">**++***</span><span class="sd">##*#*</span><span class="sm">=</span><span class="sd">##*%%%%%%</span><span class="sm">=</span><span class="sl">:</span><span class="sm">+</span><span class="sd">#*#</span><span class="sm">++=</span><span class="sd">#@@%*</span><span class="sm">*</span><span class="sd">#####%#%%#%%#</span><span class="sm">+</span><span class="sd">#####%%</span><span class="sm">*+</span><span class="sd">%%%%%@@</span>
+                           <span class="sd">@@@#*</span><span class="sm">*</span><span class="sd">#</span><span class="sm">*=</span><span class="sd">%%##</span><span class="sm">+~=**</span><span class="sd">#######*</span><span class="sm">**+~</span><span class="sd">%%#*</span><span class="sm">*+***=+****+*</span><span class="sd">####</span><span class="sm">*</span><span class="sd">#@%########%#</span><span class="sm">+</span><span class="sd">%%*#@@@#</span><span class="sm">+=</span><span class="sd">#%%#%%%%%%%%%%%%%%*</span><span class="sm">*</span><span class="sd">%##%%%@%%@@</span>
+                          <span class="sd">@@@%%%*</span><span class="sm">=</span><span class="sd">%@@%</span><span class="sm">++*</span><span class="sd">##</span><span class="sm">**</span><span class="sd">%%%%#*#</span><span class="sm">**</span><span class="sd">#</span><span class="sm">+*</span><span class="sd">@#</span><span class="sm">+**</span><span class="sd">#*</span><span class="sm">**</span><span class="sd">*#</span><span class="sm">****</span><span class="sd">##*#%%</span><span class="sm">*</span><span class="sd">#%#</span><span class="sm">*</span><span class="sd">*##</span><span class="sm">*</span><span class="sd">#%%%%%#</span><span class="sm">+~-</span><span class="sd">#@%%%%%%%%%%%%%%%%%%%@%%@@%#@@@@</span><span class="sm">=</span><span class="sd">@@@</span>
+                        <span class="sd">@@@@%@@%</span><span class="sm">+</span><span class="sd">%%#</span><span class="sm">*</span><span class="sd">*%@%%#</span><span class="sm">+*</span><span class="sd">*</span><span class="sm">***</span><span class="sd">####%%</span><span class="sm">~</span><span class="sd">@@%########**</span><span class="sm">**</span><span class="sd">####%%#%%####</span><span class="sm">*</span><span class="sd">*#*####</span><span class="sm">**</span><span class="sd">%@@#</span><span class="sm">-</span><span class="sd">%@%%%%%%%%%%%%%%%%%%%%%#%%%@</span><span class="sm">~*</span><span class="sd">@%@@</span>
+                      <span class="sd">@@@#@%%@@#%%##%@%@%</span><span class="sm">*++**</span><span class="sd">#####%%</span><span class="sm">+</span><span class="sl">:</span><span class="sd">%%####*#####</span><span class="sm">*</span><span class="sd">***#############**#</span><span class="sm">****++*</span><span class="sd">*#%%</span><span class="sm">**</span><span class="sd">@@%#%%%%%%%%%%%%%%%%%%%%%#%@@@@@</span>
+                  <span class="sd">@@@@@@@@@@@@</span><span class="sm">=-*</span><span class="sd">%%%%@@@%%@@@@@@@%##</span><span class="sl">:</span><span class="sm">*</span><span class="sd">@%</span><span class="sm">*</span><span class="sd">%#######%%################*</span><span class="sm">*****</span><span class="sd">*</span><span class="sm">+***==++-=</span><span class="sl">:</span><span class="sm">~</span><span class="sd">@%@%%%%%%%%%%%%%%%%%%%#%%@@@</span>
+               <span class="sd">@@@@@%@@@%%%%@%</span><span class="sm">~*</span><span class="sd">%#%%@%</span><span class="sm">=+**++++=~=*+</span><span class="sl">`</span><span class="sd">%@@%%@%%%%@@%%%@%%%%##############*#*</span><span class="sm">*</span><span class="sd">#*</span><span class="sm">**</span><span class="sd">#</span><span class="sm">**</span><span class="sd">#%%@@%</span><span class="sm">=*</span><span class="sd">%%%#%%%%%%%%%%%%%%%#%@@</span>
+            <span class="sm">+</span><span class="sd">@@@@@%@@@%</span><span class="sm">++</span><span class="sl">&#x27;</span><span class="sm">-=+</span><span class="sd">#@@@@%</span><span class="sm">=</span><span class="sl">:`&#x27;``&#x27;...`</span><span class="sm">-~</span><span class="sd">*%</span><span class="sm">+</span><span class="sd">%@@%@@@@@@@@@@@@@@%@%%%%%##############</span><span class="sm">*****</span><span class="sd">#*</span><span class="sm">*+</span><span class="sd">*#%#%%###%%%%%%%%#%%%%%%@@@</span>
+          <span class="sd">@@@@#</span><span class="sm">++</span><span class="sd">%@@@%</span><span class="sl">:</span><span class="sd">%%@@%@@@</span><span class="sm">+~</span><span class="sl">`&#x27;:</span><span class="sm">~</span><span class="sl">:`--</span><span class="sm">~+</span><span class="sd">#@@@@@@%@@@@%</span><span class="sm">+==~--</span><span class="sl">-</span><span class="sm">~=*</span><span class="sd">#%@@@@@@@%%%%%%##%%%#######%#%%%#*%@#%%%%%###%%%%%#%%@@@@@</span>
+          <span class="sd">%</span><span class="sl">-</span><span class="sm">-</span><span class="sl">:`::</span><span class="sm">--</span><span class="sl">::`</span><span class="sm">-+</span><span class="sd">%@@@#</span><span class="sl">``</span><span class="sm">-=*</span><span class="sd">#%%#</span><span class="sm">*</span><span class="sd">%@@@@@@@%@@@@@%%</span><span class="sm">+=++*</span><span class="sd">***</span><span class="sm">*+~-</span><span class="sl">`.`:</span><span class="sm">-+</span><span class="sd">@@@@@@@@%%%%%%%%##%%%%%%%@@</span><span class="sm">++</span><span class="sd">#</span><span class="sm">++</span><span class="sd">%@%%%%%%%%%@@@@</span>
+          <span class="sd">@%</span><span class="sm">*+~--</span><span class="sl">-::</span><span class="sm">=**==</span><span class="sd">@@%</span><span class="sm">-</span><span class="sd">@@@@@@%               @@@@@%%*</span><span class="sm">****</span><span class="sd">###%%%%#*</span><span class="sm">=</span><span class="sl">`&#x27;</span><span class="sm">=</span><span class="sd">@@@@@@@@%@@@%%%%%%%%%%%%%</span><span class="sm">*</span><span class="sd">%%%</span><span class="sm">*~</span><span class="sd">%%%%%%@@@@</span>
+           <span class="sd">@@@#</span><span class="sm">**+++~=--</span><span class="sd">@@@@@@                          @@%%#</span><span class="sm">*++==+****</span><span class="sd">#%%%</span><span class="sm">+</span><span class="sl">``</span><span class="sm">~*</span><span class="sd">%@@@@%@@@@@@@%%%%%%%%%%%%@@@@@@@@</span>
+                  <span class="sd">@@@@%@                                     @@@%%**</span><span class="sm">*++****</span><span class="sd">%@#</span><span class="sm">+-</span><span class="sl">`````.</span><span class="sm">+</span><span class="sd">%@@@@@@@%%%%%@@%@@@@</span>
+                                                                  <span class="sd">@@@@%#######%%</span><span class="sm">**</span><span class="sd">%%%#</span><span class="sm">=</span><span class="sl">:&#x27;</span><span class="sm">-*</span><span class="sd">%@@@@@@@@@</span>
+                                                                            <span class="sd">%%%@%#@@@@@@@@</span></pre>
+  <img class="fl f4" src="images/flower-blue.webp" alt="" width="120" height="220" aria-hidden="true" decoding="async"><span class="dots d2" aria-hidden="true"></span>
+  <div class="text">
+    <h2>About me</h2>
+    <p class="name">Daniel Chihuan Meza</p>
+    <p>Hey! I&rsquo;m Dan, Danny, Daniel, whatever you want to call me, I&rsquo;m a college senior studying <mark class="hl blue">Neuroscience</mark> and <mark class="hl blue">Psychology</mark>. My interest has always been on human behavior and artwork such as music, paintings, and literature.</p>
+    <p>This site exists as a deeper showing of my personal interest and I will be continuously updating it as I finish new projects. Please feel free to reach out to me if you have any questions or want to have a chat!</p>
+    <p class="muted">Based in New Jersey</p>
+  </div>
+  <div class="win photo"><div class="titlebar"><i></i><span>me.jpg</span><i></i></div><img class="shot" src="images/me.webp" alt="Daniel Chihuan Meza" width="600" height="750" loading="lazy" decoding="async"></div>
+  <div class="toby-mini">
+    <button type="button" class="win toby-thumb" id="toby-open" aria-haspopup="dialog" aria-label="Open more photos of Toby">
+      <span class="titlebar"><i></i><span>toby_02.jpg</span><i></i></span>
+      <img src="images/toby_02.webp" alt="Toby the pug lying on a blanket" width="800" height="800" loading="lazy" decoding="async">
+      <span class="toby-more">&#x2922; 3 photos</span>
+    </button>
+    <p class="toby-note">And this is Toby, my 12-year-old pug. His favorite things: sunbathing, napping, and especially sweet potato</mark>.<span class="toby-cue">Tap on him to see more picture!</span></p>
+  </div>
+</section>
+
+<section class="sec looking center" id="looking">
+  <div class="text">
+    <h2>What I&rsquo;m Looking For</h2>
+    <p>I graduate in May 2027 with degrees in Neuroscience &amp; Behavior and Psychology. I&rsquo;m looking for internships and full-time roles in <mark class="hl blue">business operations</mark>, <mark class="hl orange">procurement</mark>, and <mark class="hl green">rotational programs</mark>: places where I can learn how an organization really runs and bring a research mindset to the work.</p>
+    <p class="muted">Also open to research and data roles.</p>
+  </div>
+</section>
+
+<section class="sec skills center" id="skills">
+  <img class="fl f7" src="images/flower-blue.webp" alt="" width="120" height="220" aria-hidden="true" decoding="async"><span class="dots d3" aria-hidden="true"></span>
+  <div class="text">
+    <h2>Skills</h2>
+<div class="skrow"><p class="grp">Design</p><ul><li><span class="ico">Pc</span><span class="nm">Procreate</span></li><li><span class="ico">Ps</span><span class="nm">Photoshop</span></li><li><span class="ico">Ai</span><span class="nm">Illustrator</span></li></ul></div>
+<div class="skrow"><p class="grp">Office</p><ul><li><span class="ico">X</span><span class="nm">Excel</span></li><li><span class="ico">W</span><span class="nm">Word</span></li><li><span class="ico">P</span><span class="nm">PowerPoint</span></li></ul></div>
+<div class="skrow"><p class="grp">Data</p><ul><li><span class="ico">Py</span><span class="nm">Python</span></li><li><span class="ico">GA4</span><span class="nm">Google Analytics</span></li><li><span class="ico">SPSS</span><span class="nm">SPSS Statistics</span></li></ul></div>
+  </div>
+</section>
+
+<div class="bridge" aria-hidden="true">
+  <svg viewBox="0 0 1200 160" preserveAspectRatio="none">
+    <g fill="none" stroke="#34302c" stroke-width="1.4">
+      <line x1="0" y1="34" x2="1200" y2="34" opacity=".9"/>
+      <line x1="0" y1="46" x2="1200" y2="46" opacity=".75"/>
+      <line x1="0" y1="60" x2="1200" y2="60" opacity=".6"/>
+      <line x1="0" y1="76" x2="1200" y2="76" opacity=".45"/>
+      <line x1="0" y1="94" x2="1200" y2="94" opacity=".3"/>
+      <line x1="0" y1="114" x2="1200" y2="114" opacity=".18"/>
+    </g>
+  </svg>
+  <span class="bridge-dot big"></span><span class="bridge-dot ring"></span><span class="bridge-dot small"></span>
+</div>
+<section class="sec art" id="art">
+  <div class="text"><h2>Artwork by Me</h2><svg class="loop l2" viewBox="0 0 400 40" aria-hidden="true"><use href="#loop2"/></svg></div>
+  <div class="gallery">
+    <figure class="piece"><div class="frame"><svg class="cn tl" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><svg class="cn tr" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><svg class="cn bl" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><svg class="cn br" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><span class="doors" aria-hidden="true"><i class="door l"></i><i class="door r"></i></span><img class="art-img" draggable="false" src="images/art_01.webp" alt="Reverse value still life in colored pencil" width="720" height="1000" loading="lazy" decoding="async"></div><figcaption><em>Reverse Value Still Life (colored pencil)</em></figcaption></figure>
+    <figure class="piece"><div class="frame"><svg class="cn tl" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><svg class="cn tr" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><svg class="cn bl" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><svg class="cn br" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><span class="doors" aria-hidden="true"><i class="door l"></i><i class="door r"></i></span><img class="art-img" draggable="false" src="images/art_02.webp" alt="Basket of apples still life in oil pastel and pencil" width="1000" height="785" loading="lazy" decoding="async"></div><figcaption><em>Basket of Apples Still Life (oil pastel and pencils)</em></figcaption></figure>
+    <figure class="piece"><div class="frame"><svg class="cn tl" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><svg class="cn tr" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><svg class="cn bl" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><svg class="cn br" viewBox="0 0 40 40" aria-hidden="true"><use href="#rose"/></svg><span class="doors" aria-hidden="true"><i class="door l"></i><i class="door r"></i></span><img class="art-img" draggable="false" src="images/art_03.webp" alt="Digital painting made in Procreate" width="386" height="1000" loading="lazy" decoding="async"></div><figcaption><em>Digital Painting (Procreate)</em></figcaption></figure>
+  </div>
+</section>
+
+<div class="bridge down" aria-hidden="true">
+  <svg viewBox="0 0 1200 160" preserveAspectRatio="xMidYMid meet">
+    <defs><linearGradient id="ink-fade" gradientUnits="userSpaceOnUse" x1="0" y1="20" x2="0" y2="150"><stop offset="0" stop-color="#e9e7e1"/><stop offset=".45" stop-color="#9a9892"/><stop offset="1" stop-color="#34302c"/></linearGradient></defs>
+    <g fill="none" stroke="url(#ink-fade)" stroke-width="1.8">
+      <line x1="50" y1="30" x2="1150" y2="30" opacity="0.9"/>
+      <line x1="150" y1="44" x2="1050" y2="44" opacity="0.78"/>
+      <line x1="240" y1="60" x2="960" y2="60" opacity="0.65"/>
+      <line x1="325" y1="78" x2="875" y2="78" opacity="0.52"/>
+      <line x1="405" y1="98" x2="795" y2="98" opacity="0.4"/>
+      <line x1="475" y1="120" x2="725" y2="120" opacity="0.28"/>
+      <line x1="540" y1="144" x2="660" y2="144" opacity="0.18"/>
+    </g>
+  </svg>
+</div>
+<section class="sec resume center" id="resume">
+  <div class="text">
+    <h2>Resume</h2>
+    <p class="muted">drag to spin &middot; tap to open</p>
+  </div>
+  <div class="stage">
+    <div class="card3d" id="card" tabindex="0" role="button" aria-label="Open resume full screen">
+      <div class="face front"><img src="images/resume.webp" alt="Resume of Daniel Chihuan Meza" width="1700" height="2200" loading="lazy" decoding="async" draggable="false"></div>
+      <div class="face back"><span>Daniel Chihuan Meza</span><em>resume</em></div>
+    </div>
+  </div>
+  <a class="btn" href="resume.pdf" download>download PDF</a>
+</section>
+
+<dialog class="lightbox toby-box" id="toby-box" aria-label="Photos of Toby">
+  <button class="lb-close btn" id="tb-close" type="button" aria-label="Close">close &times;</button>
+  <div class="tb-inner">
+    <p class="tb-title">Toby &mdash; the pug</p>
+    <p class="tb-hint" id="tb-hint">Click a photo to enlarge it.</p>
+    <div class="tb-grid" id="tb-grid">
+      <button type="button" class="win tb-pic" data-i="0"><span class="titlebar"><i></i><span>toby_01.jpg</span><i></i></span><img src="images/toby_01.webp" alt="Toby in bunny ears in the kitchen" width="800" height="800" loading="lazy" decoding="async"></button>
+      <button type="button" class="win tb-pic" data-i="1"><span class="titlebar"><i></i><span>toby_02.jpg</span><i></i></span><img src="images/toby_02.webp" alt="Toby lying on a blanket" width="800" height="800" loading="lazy" decoding="async"></button>
+      <button type="button" class="win tb-pic" data-i="2"><span class="titlebar"><i></i><span>toby_03.jpg</span><i></i></span><img src="images/toby_03.webp" alt="Toby as a puppy, held in someone's arms" width="800" height="800" loading="lazy" decoding="async"></button>
+    </div>
+    <div class="tb-stage" id="tb-stage" hidden>
+      <div class="win tb-big"><span class="titlebar"><i></i><span id="tb-name">toby_01.jpg</span><i></i></span><img id="tb-img" src="images/toby_01.webp" alt="" width="800" height="800"></div>
+      <div class="tb-nav">
+        <button type="button" class="btn" id="tb-prev" aria-label="Previous photo">&larr; prev</button>
+        <button type="button" class="btn" id="tb-all">all photos</button>
+        <button type="button" class="btn" id="tb-next" aria-label="Next photo">next &rarr;</button>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="lightbox" id="lightbox" aria-label="Resume">
+  <button class="lb-close btn" id="lb-close" type="button" aria-label="Close">close &times;</button>
+  <div class="lb-scroll"><img id="lb-img" src="images/resume.webp" alt="Resume of Daniel Chihuan Meza" width="1700" height="2200"></div>
+</dialog>
+
+<section class="sec project center" id="project">
+  <img class="fl f9" src="images/flower-blue.webp" alt="" width="120" height="220" aria-hidden="true" decoding="async"><img class="fl f10" src="images/flower-orange.webp" alt="" width="120" height="220" aria-hidden="true" decoding="async"><span class="dots d4" aria-hidden="true"></span>
+  <div class="text wide">
+    <h2>Current Project</h2>
+    <p class="sub">AI-Powered Document Insights &amp; Data Extraction Externship<br><span class="muted">Pfizer &middot; via Extern</span></p>
+    <p>I&rsquo;m currently working on a project that lines up with my deep interest in the <mark class="hl green">pharmaceutical and health</mark> space, focused on improving documentation and compliance efforts with advancements in artificial intelligence.</p>
+    <ul class="bul">
+      <li><span class="k">AI pipelines</span> building pipelines that process pharmaceutical vendor files using OCR (Tesseract, PaddleOCR) and RAG to extract and classify data.</li>
+      <li><span class="k">Document retrieval</span> developing a RAG-based retrieval system with LlamaIndex, optimized through chunk tuning and open-source LLMs (Mistral, Phi-2).</li>
+      <li><span class="k">Evaluation &amp; delivery</span> benchmarking the system end to end (OCR accuracy, retrieval quality and routing performance), writing a technical report on model trade-offs and deployment recommendations, and building a demo UI.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec experience center" id="experience">
+  <div class="text"><h2>Previous Experience</h2></div>
+  <div class="cards">
+    <article class="win card">
+      <div class="titlebar"><i></i><span>experience &mdash; wellcare</span><i></i></div>
+      <div class="card-body">
+        <h3>Wellcare Nurses and Staffing</h3>
+        <p class="role">Human Resources &amp; Business Development Intern <span>&middot; Summer 2026 &middot; East Orange, NJ</span></p>
+        <p>This was my first real look at how a business runs day to day, and it&rsquo;s <u>what got me hooked on operations</u>. I kept the people side organized, with records, credentials, and time logs for a staff of <u>100+</u>, and sat in on meetings with NJ Retire Ready and Alice to work out how a new benefits setup would actually fit the team.</p>
+        <p>I also helped make onboarding easier by co-producing a set of training videos with HR, and spent a lot of time on outreach to find new nurses. Seeing how process, people, and tracking tools all connect is what <u>inspired my interest in <mark class="hl blue">business operations</mark>, development, CRM, and strategy</u>.</p>
+        <ul class="chips">
+          <li><u>100+</u> employee records kept compliant</li>
+          <li><u>8</u> onboarding videos</li>
+          <li><u>300+</u> calls &rarr; <u>~30</u> applicants &rarr; <u>15</u> interviews</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="win card">
+      <div class="titlebar"><i></i><span>experience &mdash; child study center</span><i></i></div>
+      <div class="card-body">
+        <h3>The Child Study Center at Rutgers</h3>
+        <p class="role">Research Assistant <span>&middot; Sept 2024 &ndash; Sept 2025 &middot; Newark, NJ</span></p>
+        <p>I spent a year inside a <u>two-year</u> longitudinal study on how infant negative affect shapes the development of attention bias, run in collaboration with Pennsylvania State University. Most of my hands-on time went into the data: managing and cleaning records for every participant and coding hours of video in Datavyu into structured datasets.</p>
+        <p>Coding the experiments showed me how much research and behavioral design decide what you can learn later, and pulled me further into data management, analysis, and <mark class="hl green">research collaboration across two universities</mark>. Presenting our poster <u>taught me translational speaking</u>: explaining technical ideas so a general audience actually gets them.</p>
+        <ul class="chips">
+          <li><u>357</u> participants</li>
+          <li><u>150+</u> hours of behavioral coding</li>
+          <li>Rutgers &times; Penn State</li>
+          <li><u>2nd place</u>, Honors College Research Showcase</li>
+        </ul>
+        <div class="figs">
+          <figure><img src="images/vigilance_task.webp" alt="Diagram of the vigilance task: a cue, then an angry, happy or neutral face, across 90 trials" width="353" height="407" loading="lazy" decoding="async"><figcaption><em>The vigilance task, part of the larger study we coded experiments for. Face stimuli are blurred here.</em></figcaption></figure>
+          <figure><img src="images/poster_title_redacted.webp" alt="Poster title: Infant Negative Affect and Attention Bias Development: A Longitudinal Analysis, by Daniel Chihuan Meza and co-authors" width="946" height="154" loading="lazy" decoding="async"><figcaption><em>Our research poster, co-first authored with another research assistant. Co-author names are blurred here.</em></figcaption></figure>
+          <figure><img src="images/showcase_award.webp" alt="Certificate: Rutgers University-Newark Student Research Showcase, Second Place, Undergraduate" width="1000" height="776" loading="lazy" decoding="async"><figcaption><em>Second place, Undergraduate: Rutgers&ndash;Newark Honors College Student Research Showcase, April 9, 2025.</em></figcaption></figure>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="sec contact center" id="contact">
+  <img class="fl f11" src="images/flower-blue.webp" alt="" width="120" height="220" aria-hidden="true" decoding="async"><img class="fl f12" src="images/flower-blue.webp" alt="" width="120" height="220" aria-hidden="true" decoding="async">
+  <div class="text">
+    <h2>Get in touch</h2>
+    <svg class="loop l3" viewBox="0 0 400 40" aria-hidden="true"><use href="#loop3"/></svg>
+    <form class="win form" action="https://formspree.io/f/mvkkzejk" method="POST">
+      <div class="titlebar"><i></i><span>new message</span><i></i></div>
+      <div class="form-body">
+        <label for="email">your email</label>
+        <input id="email" type="text" inputmode="email" name="email" required maxlength="200" autocomplete="email" autocapitalize="off" spellcheck="false" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="An email address, like name@gmail.com" placeholder="yourname@example.com">
+        <div class="quick" role="group" aria-labelledby="dom-hint">
+          <p class="quick-hint" id="dom-hint">Tap your email provider to add the ending automatically:</p>
+          <div class="quick-row">
+            <button type="button" class="qbtn dom" data-domain="gmail.com">@gmail.com</button>
+            <button type="button" class="qbtn dom" data-domain="outlook.com">@outlook.com</button>
+            <button type="button" class="qbtn dom" data-domain="yahoo.com">@yahoo.com</button>
+            <button type="button" class="qbtn dom" data-domain="icloud.com">@icloud.com</button>
+          </div>
+        </div>
+        <label for="message">message</label>
+        <textarea id="message" name="message" required maxlength="5000" rows="6"></textarea>
+        <div class="quick" role="group" aria-labelledby="msg-hint">
+          <p class="quick-hint" id="msg-hint">Short on time? Tap one and it will be written into the message box above:</p>
+          <div class="quick-col">
+            <button type="button" class="qbtn msg" data-text="Hello, my name is [your name]. It was great meeting you." data-select="[your name]">
+              <span class="q-text">&ldquo;Hello, my name is <i>[your name]</i>. It was great meeting you.&rdquo;</span>
+            </button>
+            <button type="button" class="qbtn msg" data-text="Hello, just scrolling through! My name's [your name]." data-select="[your name]">
+              <span class="q-text">&ldquo;Hello, just scrolling through! My name&rsquo;s <i>[your name]</i>.&rdquo;</span>
+            </button>
+          </div>
+        </div>
+        <p class="quick-status" id="quick-status" aria-live="polite"></p>
+        <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn" type="submit">Send</button>
+      </div>
+    </form>
+  </div>
+  <figure class="pasture" aria-label="ASCII drawing of a cow resting on grass">
+<pre class="cow">                                                                                                     
+                                                                                                 **+*%%%@@
+                                                                                                ***##%***##
+                                                                                               ***%########%%#
+                                                                                              +**#%***######@@%   #@@@@@@%#
+                                                                                 #%%@@%%#    #+#**##***#*##%@@@@*%@@@%@@#@@
+                                                                               *@@@@@@@%@@@%@*+**#*#*+***##%%@@@@%#%####%@%
+                                                                               #@@@@@@%%@@@@@--+*#*##++##%#@%%@@@@%%+=#%%
+                                                                                #@@@%@@@@@%@%=+***+*#*+%#@@@@@@@@@@%%%%#
+                                                                                  #%@@@%#%#%@@=*#*++#*#%%@%##@@@@@#*
+                                                                                     *##%#%%#*--+##+*#%@%@%@@@@@
+                                                                                   ***#########==*#=**@@#@@@@@@
+                                                                         #*+***##*##%%%%#*%#%###*++=*+@%%@@@@@@
+                                                             *****#**##**#####%%###%%%##%#%%%**%%*=++*%@@@@@@@@
+                                                *#*+*++=-==+++*****+++##*####*#%#%%%#%%%##%#%#*#%*=++*+*@@@@@@@
+                                         **+++======++++*+*+******######%%##%##%#%%%%%%@##%#%#*%+::++=-%=%@@@@*
+                         *+*+***+++++++++++++++++++++*#+**###%####%%%#%%%#%%%%#%%%%%%%%##%###*+@-:==@@**@@@@
+                      +++****+***+++=+*******+***+****####%#%%#%#%#%%%%%%%%%@%%%%%%%@%%%%@#%####.-:###%#+##@@@
+                    *++*#**#**#%#%%#%#********#****##*###*%#%#%%%%#%%%%%%%%%@%%%%#%%%@@%##%####+:+%@@@@@@@%@@%
+                   *++**+*+#%##%%%%%%@#*#*##*##*#*+*#**###%%##%%%%%%%%%%@%%%%%%%%%%%%%%@@%%#####%%@@@@@@%@@@@%
+                 *++*##**##%%*%##%%##%%***#*+%#*%%##%#*%##%#%%%%#%%%%@%%@%%%%%%%%@%%%%%%@@@%%%#***+%@@@@@@@@@
+                ++**+*+++*##%%%%##%%%%%#####*%*#%*#########%%#%#%%@%%%%@%####%%%%@%%%%%%%%@@%%%%##*###%%@@@@@                                        
+              *++*##**###*=+*###*#%##%%#%#%##%%##%###%##*#%#####%%%%@%@@####*##%%%@@@%%%%*%%%##@%@%#%%%%@@@@@
+           ##****#**#%%%*****####%%*####%%%%%%%%%%#%%%%%%%#%##%%#%@%%@@##%######%%@@@@%%%###%@%*#@@#%%%%@@@@@#
+         #********####%%++*+*###*#@##%##%%%%%%%%%%%%%%%%%%@#%%%%#%@%%@#*#+*#%%##%%%@%@%%%%%%%@@%@@@%%%@@@@@@@@
+        ***+*#****##%##%#++**#%%%%@%*%#%%%%%%%%%%@%%@%%%%##%@%%%#@%#%@*#**###%###%@%%@@%%@@@@@@%@@@@%%%%%@@@@@*
+       +***##****#%##%##%#***#%@@@@@%%#%%%%%%%%%%%%@%@%%@%%@@%@@%%@%@@**#####%#+*#%%%%@%%%@@@@@#@@@@@%@@@@@@@@%
+      ****###**##%####%%%@#+#%@@%%@@%=####%%%%%%%@%@@@%@@@%@@%%@%%@@%#*#####**+*%%###**%@@@%%@@@@@@@@@@@@@@@@@@%#
+     **#############%#%%%%###%%@%@@@#.-*###%%%%%%%%@%%%%%%%%%%@@@@@@++#%*#**+*#*#*#%#%%%%%@@@@@@@@@@@@@@%@@@@@@@@#**#**#%%
+     *#*#####%##%##%##%#*#%#%%@%%@%#+..-%#*##%%%@%@@@@%%%%@%%@@%@@@@@**%##*##**+**######%%#%@@@@@@@@@@@@%%@%@@#++-====--++++*#%
+   ##=###%##%####%####%%@@%##@@@@%%*:..:=*####%@%%@%%%%%@%%%@%%@@@@@@@@@@@%%#%%#***#***+*###%*#@@@@@@@@@%%%%@*:--==+++*+=--:--=+*#%%##*++#*%#+*==@
+  #*=-##########%%#*##%@%%%%@@@@%##+.::-=+##*#%@#%%%%%@@@%%@#%@@@@@@@@@@@@@@%@@**++#**#+-+**##+*@@@@@@@@%%%%@#.--==++*++++==---=:.==-===+++%-=*+     
+  *=:+#%#######%#####%%%%%%@@@@@%*%=.-::=+**##@@%%%%%%@@%@@%@@@@@@@@@@@@@@@@@@@@@#****+*#*+++#%*%@@@%#%@%*%@%@+++*####*+#*+######***#%#*# #%*
+ *+#=:*%##*##*##*#%###%##%%@@@@%%**-:-:-=**#%%@%%@%%%%%@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@#%%+**=*#@@%@@@@%##
+ *-#@*-#%###**#%+*##%#+*#%%@@@@@@%#:.:--+++++#@@@@@%@@@@@@@@@@@@@@@@%*@@@*:*##******++--+==+**@@@@@@@@
+ *==#@@=#%%##%#%*=%**+#%%@%@@@@#*#%*-====-::-=-*#@@%%#*+*##%@@@@@@+==*%#=.:=+====--=----==++*%%%*
+ %+=-+%%**%%%%#%#-#**#@##+=++#+-========--:--+-+*#*-==#@@@@@%@@@@.+*%%%%%#***+*%##**#**
+  *++-=*#+*%@@%@+-**%%==+==---:--:==-=+==+++*#**+=#@@%%@@%@%+@@@+%%  #                                                                              +
+   #**+==---+#*+-#=+++=+++==*++**##****#***#%%##--*#%
+    #%%%%#%%###=**##*+### ##   * #*#</pre>
+<pre class="grass">      &quot;  ;&quot;  ;;     ` , ,              ;      &#x27;     ,           ;      .        &#x27;    ,     `       .&quot;    , &#x27;, `        &quot;  &quot; 
+&quot;,  ,    .  .  ; ` &#x27;    .,,,     ,,    ,   `   ;  ,  &quot; ;;  &#x27;`;&#x27;&quot;       &#x27; `&#x27; ,   &quot;    .,` `&quot;    ,  &#x27; &#x27; &#x27;,` ,  ` &quot; &#x27;  &quot;     ,&#x27;
+&#x27;.&quot;.`,&quot;, ,,`., &quot;.&#x27;,,,&#x27;&quot; &quot;&quot; &quot;,.,,,&quot;  ,,. ; &quot;`,``&quot;&#x27;`&quot; &quot;.&quot;.,&#x27;.&#x27; `,&#x27; ;  &quot;.&#x27;.,`&quot; &#x27;`.,&quot;;, ,.&#x27; `,;&#x27;,,,`;,;,&quot;&#x27;&quot;` &quot;;,&quot; `&#x27; .&quot; ,,., .&quot;.</pre>
+  </figure>
+</section>
+
+</main>
+<footer class="foot">
+  <div class="foot-rule" aria-hidden="true"><span>PRIVACY &mdash; 1:1</span></div>
+  <p class="foot-copy">&copy; 2026 Daniel Chihuan Meza &middot; last updated October 2026</p>
+  <ul class="foot-claims" aria-label="Privacy summary">
+    <li>No cookies from this site</li><li>No tracking or analytics</li><li>No IP logging</li><li>No accounts</li>
+  </ul>
+  <ul class="foot-claims sub">
+    <li>Self-hosted fonts</li><li>Strict content security policy</li><li>HTTPS only</li>
+  </ul>
+  <details class="foot-more" id="privacy">
+    <summary>Privacy &amp; security details</summary>
+    <div class="foot-body">
+      <p>I built this site to be a plain, quiet corner of the internet. It doesn&rsquo;t set cookies, there&rsquo;s no analytics or tracking, and there&rsquo;s nothing to sign up for. I don&rsquo;t collect your IP address, and I couldn&rsquo;t see it even if I wanted to.</p>
+      <p>Under the hood it&rsquo;s just files (pages, images, fonts) handed to your browser by GitHub Pages. No database, no login, no server code of mine. The only thing your browser keeps is a small note saying you&rsquo;ve already watched Toby walk across the welcome screen, so he doesn&rsquo;t do it again every time you reload. That note stays on your device and disappears when you close the tab.</p>
+      <p class="fb-label">A few outside services do touch your visit:</p>
+      <dl class="fb-list">
+        <dt>GitHub Pages</dt><dd>hosts the site, so it sees standard request info, including IP addresses, the way any host does. That stays with GitHub under their privacy statement.</dd>
+        <dt>Spotify</dt><dd>runs the music player in its own sealed-off frame. It may set its own cookies; this site doesn&rsquo;t set any.</dd>
+        <dt>Formspree</dt><dd>only hears from you if you use the contact form. It gets your email and message, plus your IP for spam filtering.</dd>
+      </dl>
+      <p>On the security side, the page only runs code from this site, won&rsquo;t load inside someone else&rsquo;s frame, and doesn&rsquo;t tell other sites where you came from when you click away. The fonts are hosted here, not by Google, and every photo had its location and camera data stripped before it went up.</p>
+      <p>If you spot something off, the contact form above reaches me directly. And if you&rsquo;re curious how it&rsquo;s put together, <a href="https://github.com/chihuandanielm/chihuandanielm.github.io" target="_blank" rel="noopener noreferrer">the source code is on GitHub</a>.</p>
+    </div>
+  </details>
+</footer>
+<script src="main.js?v=38"></script>
+</body>
+</html>
