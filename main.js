@@ -278,9 +278,6 @@ function draft(sec) {
     el("circle", { cx: L + 18, cy: y + 110, r: 7, pathLength: 1 }, svg),
     el("path", { d: `M${L + 6} ${y + 110} H${L + 30} M${L + 18} ${y + 98} V${y + 122}`, pathLength: 1 }, svg),
   ];
-  const label = el("text", { x: R - 4, y: y - 10, "text-anchor": "end" }, svg);
-  label.textContent = (sec.id || "").toUpperCase() + "  \u2014  1:1";
-  parts.push(label);
   return parts;
 }
 document.querySelectorAll(".sec h2").forEach((h) => {
