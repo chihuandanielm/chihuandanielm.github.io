@@ -1026,3 +1026,8 @@ img.fl { mix-blend-mode: normal; object-fit: contain; }
 /* nothing may push the page sideways (clip keeps the fixed menu working) */
 html, body { overflow-x: hidden; }
 @supports (overflow: clip) { html, body { overflow-x: clip; } }
+/* summary claims now sit at the top of the details panel */
+.foot-body .foot-claims { justify-content: flex-start; margin: 0; padding: 0; }
+.foot-body .foot-claims.sub { margin: 4px 0 14px; padding-bottom: 12px; border-bottom: 1px dashed #cfc6b6; }
+.foot-body .foot-claims li { margin: 0; }
+.foot-copy { margin-bottom: 14px; }
